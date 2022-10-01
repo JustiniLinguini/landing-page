@@ -12,3 +12,12 @@ ul {
 a {
     text-decoration: none;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.header-link-container{
+    display: flex;
+    gap: 12px;
+}
