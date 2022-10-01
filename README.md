@@ -1,0 +1,1 @@
+This will be my first landing page! I will be applying the knowledge i've learned from "The Odin Project" foundations course.
