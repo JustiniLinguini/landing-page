@@ -5,6 +5,8 @@
 body {
     display: flex;
     flex-direction: column;
+    height: 100vh;
+    margin: 0;
 }
 
 li {
@@ -41,6 +43,11 @@ a {
 .title-button {
    flex-grow: 0;
    width: 100px;
+   outline: none;
+   background-color: #3882F6;
+   white-space: nowrap;
+   border-radius: 8px;
+
 }
 
 .head-content{
@@ -166,4 +173,16 @@ a {
 .cta-info {
     font-size: 24px;
     margin-left: 100px;
+}
+
+/* footer section */
+.footer{
+    display: flex;
+    margin-top: auto;
+    background-color: #1F2937;
+    justify-content: center;
+}
+.footer-text{
+    padding: 24px;
+    font-weight: 500;
 }
