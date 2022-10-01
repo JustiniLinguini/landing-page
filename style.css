@@ -2,3 +2,10 @@ body {
     display: flex;
     flex-direction: column;
 }
+li {
+    list-style: none;
+    text-decoration: none;
+}
+ul {
+    padding: 0px;
+}
