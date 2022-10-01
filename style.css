@@ -9,3 +9,6 @@ li {
 ul {
     padding: 0px;
 }
+a {
+    text-decoration: none;
+}
