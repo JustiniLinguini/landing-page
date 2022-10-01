@@ -24,8 +24,8 @@ a {
     display: flex;
     justify-content: space-between;
     margin-bottom: auto;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .header-link-container{
@@ -47,12 +47,15 @@ a {
     display: flex;
     justify-content: space-between;
     gap: 12px;
-    margin: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .title-image{
-    height: 200px;
-    width: 400px;
+    height: 250px;
+    width: 450px;
     flex-grow: 0;
     flex-shrink: 0;
     flex-basis: auto;
@@ -116,6 +119,9 @@ a {
     font-style: italic;
     font-weight: lighter;
     color: #1F2937;
+    margin-left: 200px;
+    margin-right: 200px;
+    
 }
 .quote-author{
     font-size: 24px;
@@ -128,4 +134,36 @@ a {
 
 /* call to action section */
 
+.cta-container {
+    display: flex;
+    background-color: #3882F6;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 25px;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.signup-button{
+    border: solid #E5E7EB 2px;
+    background: none;
+    border-radius: 8px;
+    outline: inherit;
+    white-space: nowrap;
+    flex-grow: 0;
+    height: 48px;
+    width: 100px;
+    margin-right: 100px;
+}
+
+.cta-title {
+    font-weight: bold;
+    font-size: 32px;
+    margin-left: 100px;
+}
+.cta-info {
+    font-size: 24px;
+    margin-left: 100px;
+}
