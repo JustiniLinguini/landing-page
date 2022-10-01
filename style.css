@@ -18,6 +18,8 @@ a {
     text-decoration: none;
 }
 
+/*header content section */
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -72,4 +74,11 @@ a {
 .header-container {
     background-color: #1F2937;
 }
+
+/* info content section */
+
+.info {
+    color: black; /* for debugging */
+}
+
 
